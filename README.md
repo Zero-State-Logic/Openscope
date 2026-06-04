@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/hero.svg" alt="Oscilla — a real oscilloscope in your browser" width="100%">
+<img src="oscilla/docs/assets/hero.svg" alt="Oscilla — a real oscilloscope in your browser" width="100%">
 
 <br>
 
@@ -27,7 +27,7 @@ An oscilloscope is the single most useful tool on an electronics bench — it le
 **Oscilla turns a $4 microcontroller into one.** You flash a Raspberry Pi Pico, plug it into a signal, open a tab, and you're looking at live waveforms — with triggering, an FFT spectrum view, automatic measurements, CSV export, and UART/I²C/SPI protocol decoding. The whole interface runs in the browser, so there's nothing to install and it works the same on Windows, Mac, Linux, ChromeOS, Android — and even iPhone (more on that below).
 
 <div align="center">
-<img src="docs/assets/preview.svg" alt="The Oscilla interface: scope screen, controls, spectrum and UART decode" width="100%">
+<img src="oscilla/docs/assets/preview.svg" alt="The Oscilla interface: scope screen, controls, spectrum and UART decode" width="100%">
 <br><sub>↑ A preview of the interface we're building. The UI is in active development — this is the target.</sub>
 </div>
 
@@ -126,7 +126,7 @@ No overselling. Here's exactly what the Pico front-end can and can't do:
 | A few resistors + diodes | Analog front-end (protection + scaling) | ~$1 |
 | Raspberry Pi Zero 2 W *(optional)* | Appliance host for any-device access | you may already own one |
 
-You can start in **direct mode with just the Pico** and add the Zero later for appliance mode. Build instructions and the front-end schematic will live in [`docs/hardware`](docs/).
+You can start in **direct mode with just the Pico** and add the Zero later for appliance mode. Build instructions and the front-end schematic will live in [`docs/hardware`](oscilla/docs/).
 
 ---
 
@@ -249,5 +249,5 @@ Standing on the shoulders of the open-hardware community — the Raspberry Pi Pi
 <br>
 <b>If you believe everyone deserves a scope, ⭐ star the repo and help build it.</b>
 <br><br>
-<sub>Oscilla · built in public · made for students and makers</sub>
+<sub>Oscilla · built open to public · made for students and makers</sub>
 </div>
