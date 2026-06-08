@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/hero.svg" alt="OpenScope — a real oscilloscope in your browser" width="100%">
+<img src="hero.svg" alt="OpenScope — a real oscilloscope in your browser" width="100%">
 
 <br>
 
@@ -30,7 +30,7 @@ An oscilloscope lets you *see* electrical signals — like a heart monitor for e
 **OpenScope turns a $4 microcontroller into one.** Flash a Raspberry Pi Pico, plug it into a signal, open a tab, and watch live waveforms — with triggering, an FFT spectrum view, automatic measurements, CSV export, and protocol decoding. The interface runs entirely in the browser, so there's nothing to install and it works the same on Windows, Mac, Linux, ChromeOS, Android, and even iPhone.
 
 <div align="center">
-<img src="docs/assets/preview.svg" alt="The OpenScope interface: scope screen, controls, spectrum and UART decode" width="100%">
+<img src="preview.svg" alt="The OpenScope interface: scope screen, controls, spectrum and UART decode" width="100%">
 <br><sub>The interface we're building. This is the design target — the UI is in active development.</sub>
 </div>
 
