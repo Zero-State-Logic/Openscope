@@ -1,0 +1,70 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" font-family="'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+  <title>OpenScope — a real oscilloscope in your browser</title>
+  <desc>Dark oscilloscope-themed banner with a glowing green waveform on a grid, the OpenScope wordmark, tagline, and spec chips.</desc>
+  <defs>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screenClip"><rect x="600" y="70" width="616" height="280" rx="12"/></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1279" height="419" rx="18" fill="#0B0E14" stroke="#1E2636"/>
+
+  <rect x="600" y="70" width="616" height="280" rx="12" fill="#0A0F18" stroke="#1E2636"/>
+  <g clip-path="url(#screenClip)">
+    <g stroke="#161D2B" stroke-width="1">
+      <line x1="656" y1="70" x2="656" y2="350"/><line x1="712" y1="70" x2="712" y2="350"/>
+      <line x1="768" y1="70" x2="768" y2="350"/><line x1="824" y1="70" x2="824" y2="350"/>
+      <line x1="880" y1="70" x2="880" y2="350"/><line x1="992" y1="70" x2="992" y2="350"/>
+      <line x1="1048" y1="70" x2="1048" y2="350"/><line x1="1104" y1="70" x2="1104" y2="350"/>
+      <line x1="1160" y1="70" x2="1160" y2="350"/>
+      <line x1="600" y1="116" x2="1216" y2="116"/><line x1="600" y1="162" x2="1216" y2="162"/>
+      <line x1="600" y1="258" x2="1216" y2="258"/><line x1="600" y1="304" x2="1216" y2="304"/>
+    </g>
+    <line x1="936" y1="70" x2="936" y2="350" stroke="#283242" stroke-width="1"/>
+    <line x1="600" y1="210" x2="1216" y2="210" stroke="#283242" stroke-width="1"/>
+
+    <line x1="600" y1="186" x2="1216" y2="186" stroke="#F87171" stroke-width="1" stroke-dasharray="4 5" opacity="0.65"/>
+    <path d="M600 180 L612 186 L600 192 Z" fill="#F87171" opacity="0.9"/>
+
+    <path id="trace" d="M612 210 Q649 150 686 210 Q723 270 760 210 Q797 150 834 210 Q871 270 908 210 Q945 150 982 210 Q1019 270 1056 210 Q1093 150 1130 210 Q1167 270 1204 210"
+          fill="none" stroke="#34D399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+
+    <circle r="5" fill="#9ff0cf" filter="url(#glow)">
+      <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#trace"/>
+      </animateMotion>
+    </circle>
+
+    <g opacity="0.20">
+      <line x1="612" y1="74" x2="612" y2="346" stroke="#34D399" stroke-width="1.5" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="592 0" dur="4s" repeatCount="indefinite"/>
+      </line>
+    </g>
+  </g>
+  <text x="616" y="92" font-size="13" font-weight="600" fill="#34D399">CH1</text>
+  <text x="1200" y="92" font-size="13" fill="#6B7687" text-anchor="end">500 kS/s · 12-bit</text>
+  <text x="616" y="338" font-size="13" fill="#8A94A3">Vpp 3.28 V</text>
+  <text x="800" y="338" font-size="13" fill="#8A94A3">f 1.00 kHz</text>
+  <text x="1200" y="338" font-size="13" fill="#8A94A3" text-anchor="end">duty 50%</text>
+
+  <text x="62" y="158" font-size="72" font-weight="800" fill="#F4F6F8" letter-spacing="-2">OpenScope</text>
+  <rect x="66" y="176" width="150" height="5" rx="2.5" fill="#34D399"/>
+  <text x="66" y="226" font-size="26" font-weight="600" fill="#C7D0DB">A real oscilloscope, in your browser.</text>
+  <text x="66" y="258" font-size="16" fill="#8A94A3">Plug in a $4 Pico. Open a tab. That's the whole setup.</text>
+
+  <g font-size="13" font-weight="500">
+    <rect x="66" y="286" width="92" height="30" rx="15" fill="#121927" stroke="#2A3342"/>
+    <text x="112" y="305" fill="#9FB3C8" text-anchor="middle">500 kS/s</text>
+    <rect x="168" y="286" width="66" height="30" rx="15" fill="#121927" stroke="#2A3342"/>
+    <text x="201" y="305" fill="#9FB3C8" text-anchor="middle">12-bit</text>
+    <rect x="244" y="286" width="200" height="30" rx="15" fill="#121927" stroke="#2A3342"/>
+    <text x="344" y="305" fill="#9FB3C8" text-anchor="middle">FFT · UART / I²C / SPI</text>
+  </g>
+
+  <g>
+    <circle cx="70" cy="360" r="4" fill="#34D399"/>
+    <text x="82" y="364" font-size="14" fill="#6B7687">Open source · MIT · runs free on GitHub Pages</text>
+  </g>
+</svg>
